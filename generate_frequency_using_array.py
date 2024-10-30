@@ -20,7 +20,7 @@ while True:
             continue
         elif random_number == 0:
             break
-        elif random_number < 50:
+        elif random_number > 50:
             break
     except:
         break    
