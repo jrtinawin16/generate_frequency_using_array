@@ -25,10 +25,18 @@ while True:
     except:
         break    
 
-    data_inserted_numbers = {
-        "data_range_1_10" : 1-10,
-        "data_range_11_20" : 11-20,
-        "data_range_21_30" : 21-30,
-        "data_range_31_40" : 31-40,
-        "data_range_41_50" : 41-50
+    data_inserted_numbers[random_number]= {
+        "data_range_1_10" : 0,
+        "data_range_11_20" : 0,
+        "data_range_21_30" : 0,
+        "data_range_31_40" : 0,
+        "data_range_41_50" : 0
     }
+
+for random_number in data_inserted_numbers:
+    if random_number == 1 and random_number <= 10:
+        "data_range_1_10" + 1
+    elif random_number == 11 and random_number <= 20:
+        "data_range_11_20" + 1
+    elif random_number == 21 and random_number <= 30:
+        "data_range_21_30" +1
