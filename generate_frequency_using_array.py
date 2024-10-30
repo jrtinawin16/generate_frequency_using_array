@@ -9,3 +9,10 @@
     # 31-40
     # 41-50
 # once loop is broken, display a tally of frequency for each range
+
+# loop 1 - ask user to input a number from 1-50
+while True:
+    try:
+        random_number = int(input("Please enter a number from 1-50: "))
+    except:
+        continue    
