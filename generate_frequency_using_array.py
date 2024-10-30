@@ -24,15 +24,15 @@ while True:
     try:
         random_number = int(input("Please enter a number from 1-50: "))
         if random_number >= 1 and random_number <= 50:
-            if random_number == 1 and random_number <= 10:
+            if random_number >= 1 and random_number <= 10:
                 data_frequency["1-10"] += 1
-            elif random_number == 11 and random_number <= 20:
+            elif random_number >= 11 and random_number <= 20:
                 data_frequency["11-20"] += 1
-            elif random_number == 21 and random_number <= 30:
+            elif random_number >= 21 and random_number <= 30:
                 data_frequency["21-30"] += 1
-            elif random_number == 31 and random_number <= 40:
+            elif random_number >= 31 and random_number <= 40:
                 data_frequency["31-40"] += 1
-            elif random_number == 41 and random_number <= 50:
+            elif random_number >= 41 and random_number <= 50:
                 data_frequency["41-50"] += 1
         elif random_number == 0:
             break
