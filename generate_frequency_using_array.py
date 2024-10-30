@@ -26,9 +26,9 @@ while True:
         break    
 
     data_inserted_numbers = {
-        "data_range_1" : 1-10,
-        "data_range_2" : 11-20,
-        "data_range_3" : 21-30,
-        "data_range_4" : 31-40,
-        "data_range_5" : 41-50
+        "data_range_1_10" : 1-10,
+        "data_range_11_20" : 11-20,
+        "data_range_21_30" : 21-30,
+        "data_range_31_40" : 31-40,
+        "data_range_41_50" : 41-50
     }
