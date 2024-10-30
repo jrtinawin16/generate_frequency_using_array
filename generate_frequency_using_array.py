@@ -14,5 +14,7 @@
 while True:
     try:
         random_number = int(input("Please enter a number from 1-50: "))
+        if random_number >= 1 and random_number <= 50:
+            continue
     except:
-        continue    
+        break    
