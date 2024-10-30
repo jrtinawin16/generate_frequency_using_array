@@ -33,10 +33,17 @@ while True:
         "data_range_41_50" : 0
     }
 
-for random_number in data_inserted_numbers:
+for entry in data_inserted_numbers.items():
     if random_number == 1 and random_number <= 10:
         "data_range_1_10" + 1
     elif random_number == 11 and random_number <= 20:
         "data_range_11_20" + 1
     elif random_number == 21 and random_number <= 30:
-        "data_range_21_30" +1
+        "data_range_21_30" + 1
+    elif random_number == 31 and random_number <= 40:
+        "data_range_31_40" + 1
+    elif random_number == 41 and random_number <= 50:
+        "data_range_41_50" + 1
+
+print("The frequency of inserted numbers in each range are as follows:")
+print(entry)
